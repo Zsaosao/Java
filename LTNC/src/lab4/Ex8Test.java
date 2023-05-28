@@ -1,0 +1,10 @@
+package lab4;
+
+public class Ex8Test {
+	public static void main(String[] args) {
+		int[][] array2D = { { 4, 5, 7, 9 }, { -6, -2, 10, 23 }, { 0 }, { 34 }, { 3, 5 } };
+		System.out.println("Array2D Largest Element: " + Ex8.array2DLargestElement(array2D));
+		System.out.println("Array2D Smallest Element: " + Ex8.array2DSmallestElement(array2D));
+		System.out.println("Sum Of Array2D: " + Ex8.sumOfArray2D(array2D));
+	}
+}
